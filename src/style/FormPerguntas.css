@@ -1,0 +1,42 @@
+.main-formPerguntas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-formPerguntas .form-formPerguntas{
+    width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+
+.main-formPerguntas .form-error{
+    color: red;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.main-formPerguntas .form-formPerguntas .info-formPerguntas{
+    margin: 20px 10px;
+}
+
+.main-formPerguntas .form-formPerguntas .buttton-formPerguntas{
+    width: 1000px;
+    height: 55px;
+    margin-top: 25px;
+	border-radius: 25px;
+    border: none;
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	cursor: pointer;
+	transition: .5s;
+	text-align: center;
+    background-image: var(--background-color-button);
+    transition: .5s;
+}
+
+
+.main-formPerguntas .form-formPerguntas .buttton-formPerguntas:hover{
+    background-position: right;
+}

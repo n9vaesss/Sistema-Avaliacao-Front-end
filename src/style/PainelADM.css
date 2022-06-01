@@ -1,0 +1,61 @@
+.main-painel{
+    width: 1000px;
+    margin: 250px auto;
+    display: flex;
+    flex-direction: column;
+}
+.main-painel .div-select-painel{
+    width: 100%;
+    display: flex;
+}
+
+.main-painel .div-select-painel .select-painel{
+    width: 700px;
+    height: 30px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.main-painel .div-input-painel{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-painel .div-input-painel input{
+    width: 313px;
+    height: 30px;
+    margin: 10px;
+}
+
+.main-painel .div-input-painel select{
+    width: 313px;
+    height: 30px;
+    margin: 10px;
+}
+
+.main-painel .div-input-painel form{
+    display: flex;
+}
+
+.button-painelADM{
+    margin-left: 100px;
+
+    width: 800px;
+    height: 50px;
+    margin-top: 25px;
+	border-radius: 25px;
+    border: none;
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	cursor: pointer;
+	transition: .5s;
+	text-align: center;
+    background-image: var(--background-color-button);
+    transition: .5s;
+}
+
+.button-painelADM:hover{
+    background-position: right;
+}

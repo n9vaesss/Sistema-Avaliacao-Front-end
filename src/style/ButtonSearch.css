@@ -1,0 +1,25 @@
+.main-align-buttonSearch{
+    display: flex;
+}
+
+.main-buttonSearch{
+    margin: 10px auto;
+
+    width: 800px;
+    height: 55px;
+    margin-top: 25px;
+	border-radius: 25px;
+    border: none;
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	cursor: pointer;
+	transition: .5s;
+	text-align: center;
+    background-image: var(--background-color-button);
+    transition: .5s;
+}
+
+.main-buttonSearch:hover{
+    background-position: right;
+}

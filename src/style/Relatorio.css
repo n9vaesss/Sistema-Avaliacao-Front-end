@@ -1,0 +1,18 @@
+.relatorio{
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    padding: 20px;
+    border: 2px solid var(--background-color-nav);
+    border-radius: 20px;
+    background-color: aliceblue;
+    font-size: 14px;
+}
+
+.main-relatorio{
+    margin:20px;
+}
+
+.title{
+    font-weight: bolder;
+}

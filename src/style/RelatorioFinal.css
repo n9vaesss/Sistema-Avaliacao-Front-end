@@ -1,0 +1,20 @@
+.main-relatorio-final{
+    margin: 20px auto;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.main-relatorio-final table{
+    text-align: justify;
+    margin: 20px auto;
+    width: 400px;
+}
+
+.main-relatorio-final .a{
+    font-weight: bolder;
+}
+
+td{
+    text-align: right;
+}

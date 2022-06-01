@@ -1,0 +1,24 @@
+.main-preAvaliacao{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height:40vh;
+}
+
+.main-preAvaliacao .main-image-preAvaliacao{
+    margin:  0 auto;
+    width: 500px;
+}
+
+.main-preAvaliacao .main-input-preAvaliacao{
+    margin: 20px auto;
+    width: 800px;
+    
+    padding: 10px;
+    font-size: 20px;
+}
+
+.text-preAvaliacao{
+    text-align: center;
+}

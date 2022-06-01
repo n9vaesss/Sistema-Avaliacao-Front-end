@@ -1,0 +1,9 @@
+.main-infoUsuario{
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+}
+
+.main-infoUsuario h1{
+    margin: 10px;
+}

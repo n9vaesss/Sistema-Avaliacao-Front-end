@@ -1,0 +1,25 @@
+.principal{
+    overflow: hidden;
+}
+
+.principal .main-principal{
+    width: 100%;
+    display: flex;
+}
+
+.principal .main-principal .align-principal{
+    display: flex;
+    margin: 90px auto;
+    flex-direction: column;
+}
+
+.principal .main-principal .img-principal{
+    width: 600px;
+    margin: 10px auto;
+}
+
+.principal .main-principal .text-principal{
+    font-size: 20px;
+    width: 1000px;
+    text-align: center;
+}
